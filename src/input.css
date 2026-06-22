@@ -1,0 +1,16 @@
+@import "tailwindcss";
+body {
+  font-family: "Montserrat";
+}
+@theme {
+  --color-blue: hsl(237, 63%, 64%);
+  --color-violet: hsl(236, 72%, 79%);
+  --color-very-light-grayish-blue: hsl(240, 78%, 98%);
+  --color-light-grayish-blue: hsl(234, 14%, 74%);
+  --color-grayish-blue: hsl(233, 13%, 49%);
+  --color-dark-grayish-blue: hsl(232, 13%, 33%);
+  --color-white: hsl(0, 0%, 100%);
+}
+h2 {
+  @apply text-dark-grayish-blue;
+}
