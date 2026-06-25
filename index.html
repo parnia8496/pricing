@@ -9,22 +9,60 @@
     <title>Document</title>
     <link rel="stylesheet" href="/src/output.css" />
   </head>
-  <body class="h-screen flex-col justify-center bg-very-light-grayish-blue">
+  <body
+    class="bg-very-light-grayish-blue grayish-blue flex flex-col justify-center"
+  >
     <header>
       <h1 class="text-grayish-blue text-center text-[32px] font-bold">
         Our Pricing
       </h1>
-      <div class="flex justify-evenly gap-7.5 mt-10 items-center">
-        <span class="text-light-grayish-blue font-bold text-15px">Anually</span
-        ><span class="bg-violet w-15 h-7.5 rounded-[20px]"></span
-        ><span class="text-light-grayish-blue text-15px font-bold"
-          >monthly</span
-        >
+      <div class="flex justify-center mt-10 items-center gap-7.5">
+        <span class="text-light-grayish-blue font-bold text-15px">Anually</span>
+      <img src="Screenshot 2026-06-25 162416.png" class="w-[60px] h-[36px]">
+        <span class="text-light-grayish-blue text-15px font-bold">Monthly</span>
       </div>
     </header>
-    <main class="flex-col justify-center">
-      <div class="bg-white w-[300px] h-[400px] flex justify-center">
-        <h2>Basic</h2>
+    <main class="flex flex-col min-[1100px]:flex-row justify-center items-center">
+      <div
+        class="bg-white w-[350px] h-[450px] flex flex-col items-center rounded-[20px] mt-15 shadow-xl"
+      >
+        <h2 class="text-dark-grayish-blue">Basic</h2>
+        <span class="text-dark-grayish-blue">$19.99</span>
+        <ul>
+          <li class="text-dark-grayish-blue">500 GB Storage</li>
+          <li class="text-dark-grayish-blue">2 Users Allowed</li>
+          <li class="border-b border-light-grayish-blue text-dark-grayish-blue">Send up to 3 GB</li>
+        </ul>
+        <button class="bg-linear-to-r from-violet to-blue text-white">
+          LEARN MORE
+        </button>
+      </div>
+
+      <div
+        class="bg-linear-150 from-violet to-blue w-[350px] h-[450px] flex flex-col items-center rounded-[20px] mt-15 shadow-xl"
+      >
+        <h2 class="text-white">Professional</h2>
+        <span class="text-white">$24.99</span>
+        <ul class="text-white">
+          <li class="text-white">1 TB Storage</li>
+          <li class="text-white">5 Users Allowed</li>
+          <li class="border-b border-light-grayish-blue text-white">Send up to 10 GB</li>
+        </ul>
+        <button class="bg-white text-blue">LEARN MORE</button>
+      </div>
+      <div
+        class="bg-white w-[350px] h-[450px] flex flex-col items-center rounded-[20px] mt-15 shadow-xl"
+      >
+        <h2 class="text-dark-grayish-blue">Master</h2>
+        <span class="text-dark-grayish-blue">$39.99</span>
+        <ul>
+          <li class="text-dark-grayish-blue">2 TB Storage</li>
+          <li class="text-dark-grayish-blue">10 Users Allowed</li>
+          <li class="border-b border-light-grayish-blue text-dark-grayish-blue">Send up to 20 GB</li>
+        </ul>
+        <button class="bg-linear-to-r from-violet to-blue text-white">
+          LEARN MORE
+        </button>
       </div>
     </main>
   </body>
